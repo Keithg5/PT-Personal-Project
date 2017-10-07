@@ -38,14 +38,14 @@ export default class SignUp extends Component {
         return (
             <form onSubmit={ this.handleSubmit } className="userForm">
                 <FormGroup 
-                    controlId="formControlsTextarea"
+                    id="formControlsTextarea"
                     value={ this.state.username }
                     onChange={ this.handleUserChange }>
                     <ControlLabel>Username:</ControlLabel>
                     <FormControl placeholder="Enter your username" />
                 </FormGroup>
                 <FormGroup
-                    controlId="formControlsPassword"
+                    id="formControlsPassword"
                     value={ this.state.password }
                     onChange={ this.handlePasswordChange }>
                     <ControlLabel>Password:</ControlLabel>
