@@ -39,6 +39,12 @@ server.use((req, res, next) => {
     next();
 });
 
+server.use(express.static(path.join(__dirname, 'client/build')));
+
+server.get('/', (req, res) => {
+  res.status(200).sendFile(path.join(__dirname + 'client/build/index.html'));
+});
+
 //API
 server.post('/api/:term', (req, res) => {
     const term = req.params.term;
