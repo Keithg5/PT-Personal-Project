@@ -8,6 +8,8 @@ const axios = require('axios');
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 
+const port = process.env.PORT || 8080;
+
 //Import DB schema
 const User = require('./client/model/user');
 
@@ -80,6 +82,6 @@ server.delete('/users', (req, res) => {
 });
 
 //------Server Set Up-----//
-server.listen(3030, () => {
+server.listen(port, () => {
     console.log('server listening on port 3030');
 });
