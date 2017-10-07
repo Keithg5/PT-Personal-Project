@@ -47,7 +47,7 @@ export default class SignIn extends Component {
                 <FormGroup 
                     label="Password"
                     type="password"
-                    controlId="formControlsPassword"
+                    id="formControlsPassword"
                     value={ this.state.password }
                     onChange={ this.handlePasswordChange }>
                     <ControlLabel>Password:</ControlLabel>
