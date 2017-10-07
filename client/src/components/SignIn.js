@@ -50,7 +50,7 @@ export default class SignIn extends Component {
                     value={ this.state.password }
                     onChange={ this.handlePasswordChange }>
                     <ControlLabel>Password:</ControlLabel>
-                    <FormControl componentClass="textarea" placeholder="Enter your password" />
+                    <FormControl componentClass="password" placeholder="Enter your password" />
                 </FormGroup>
                 <Button bsStyle='primary' type="submit">
                     SUBMIT
