@@ -83,5 +83,5 @@ server.delete('/users', (req, res) => {
 
 //------Server Set Up-----//
 server.listen(port, () => {
-    console.log('server listening on port 3030');
+    console.log('server listening on port 8080');
 });
