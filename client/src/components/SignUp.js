@@ -45,12 +45,13 @@ export default class SignUp extends Component {
                     <FormControl componentClass="textarea" placeholder="Enter your username" />
                 </FormGroup>
                 <FormGroup
-                    type="password" 
+                    label="Password"
+                    type="password"
                     controlId="formControlsPassword"
                     value={ this.state.password }
                     onChange={ this.handlePasswordChange }>
                     <ControlLabel>Password:</ControlLabel>
-                    <FormControl componentClass="password" placeholder="Enter your password" />
+                    <FormControl componentClass="textarea" placeholder="Enter your password" />
                 </FormGroup>
                     <Button bsStyle='primary' type="submit">
                         SUBMIT

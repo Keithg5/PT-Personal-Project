@@ -45,6 +45,7 @@ export default class SignIn extends Component {
                     <FormControl componentClass="textarea" placeholder="Enter your username" />
                 </FormGroup>
                 <FormGroup 
+                    label="Password"
                     type="password"
                     controlId="formControlsPassword"
                     value={ this.state.password }
