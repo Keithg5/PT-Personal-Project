@@ -44,7 +44,8 @@ export default class SignUp extends Component {
                     <ControlLabel>Username:</ControlLabel>
                     <FormControl componentClass="textarea" placeholder="Enter your username" />
                 </FormGroup>
-                <FormGroup 
+                <FormGroup
+                    type="password" 
                     controlId="formControlsPassword"
                     value={ this.state.password }
                     onChange={ this.handlePasswordChange }>
