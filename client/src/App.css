@@ -1,0 +1,32 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+.App {
+  width: 90%;
+  margin: auto;
+  min-height: 550px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.searchPanel {
+  width: 90%;
+}
+
+.thumbNail {
+  height: 90px;
+  width: 120px;
+  margin: 30px;
+  overflow: hidden;
+}
+
+.modalStyle {
+  width: 50%;
+}
+
+.userForm {
+  width: 50%;
+  padding-top: 100px;
+  margin: auto;
+}

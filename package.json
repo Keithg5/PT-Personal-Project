@@ -1,0 +1,22 @@
+{
+  "name": "React-gif-search",
+  "version": "1.0.0",
+  "description": "react-git-search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandeep Chandran",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.5",
+    "mongoose": "^4.12.0",
+    "nodemon": "^1.12.1",
+    "react-bootstrap": "^0.31.3",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
