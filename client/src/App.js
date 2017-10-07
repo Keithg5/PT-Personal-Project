@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   handleSearchChange = (term) => {    
-    axios.post(`/api/${term}`)
+    axios.post(`api/${term}`)
     .then(res => {
       const urlArray = res.data.hits;
       const imagesArray = [];
@@ -52,7 +52,7 @@ class App extends Component {
   }
 
   handleSignUp = (user) => {
-    axios.post('/users', user)
+    axios.post('users', user)
     .then(res => {
       this.setState({ 
         username: res.data.username,
@@ -65,7 +65,7 @@ class App extends Component {
   }
 
   handleSignIn = (user) => {
-    axios.post('/users/login', user)
+    axios.post('users/login', user)
     .then(res => {
       if (res.data) {
         this.setState({ 
